@@ -1,0 +1,72 @@
+<figure>
+    <tr>
+        <td>
+            <div class="form-check form-check-flat mt-0">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" aria-checked="false"><i
+                        class="input-helper"></i></label>
+            </div>
+        </td>
+        <td>
+            <div class="d-flex ">
+                <h5 style="padding: 20px;">{%ID%}</h5>
+                <div>
+                    <h6>{%NAME%}</h6>
+                    <p>{%DESIGNATION%}</p>
+                    <h6>{%DEPARTMENT%}</h6>
+                    <p> <strong>Recent Project : </strong> {%LAST_ASSIGNED_PROJECT%}</p>
+                </div>
+            </div>
+        </td>
+        <td>
+            <h6>{%EMAIL%}</h6>
+            <p>{%PHONE%} Years</p>
+            <p>{%ADDRESS%} Years</p>
+        </td>
+        <td>
+            <div>
+                <div class=" justify-content-between align-items-center mb-1 max-width-progress-wrap">
+                    <p class="text-success">{%EFFICIENCY%}%</p>
+                    <p>
+                    <div>
+                        {%XP_POINTS%} Xp
+
+                        /
+                        {%PENALTIES%} Xp
+                    </div>
+                    </p>
+                </div>
+                <!-- <div class="progress progress-md">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                </div> -->
+            </div>
+        </td>
+        <td>
+            <div>
+                <h6>${%SALARY%}</h6>
+                <p>{%HEALTH_INSURANCE%}</p>
+            </div>
+        </td>
+        <td>
+            <div>
+                <a href="/assign-project">
+                    <button class="btn btn-primary btn-lg text-white mb-0 me-0" type="button">
+                        Assign Project
+                    </button>
+                </a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div>
+                <a href="/view-projects">
+                    <button class="btn btn-primary btn-lg text-white mb-0 me-0" type="button">
+                        View Projects
+                    </button>
+                </a>
+              </div>
+
+        </td>
+    </tr>
+</figure>
